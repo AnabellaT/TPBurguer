@@ -1,0 +1,145 @@
+*{
+    font-family: 'Kanit', sans-serif;;
+    text-align: center;
+    background-color: rgb(251, 231, 206);
+    box-sizing:border-box;
+}
+h1, h2{font-family: 'Michroma', sans-serif;
+color: rgb(200, 52, 3);    
+text-align: center;
+font-size: 3em;
+
+    
+}
+.destacado {font-family: 'Michroma', sans-serif;
+    color: rgb(200, 52, 3); 
+    text-align: center;
+    font-size: large;
+    position: relative;
+    animation: promo 10s linear 2s infinite alternate;
+  }
+  
+  @keyframes promo {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:520px;}
+    100% {left:0px; top:0px;}
+  }
+
+.logo{
+  position: fixed;
+  text-align: end;
+  margin-top: 0vw;
+  margin-left: 500px;
+}
+.slideshow {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(200, 52, 3);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(200, 52, 3);
+    color: rgb(251, 231, 206);
+  }
+  footer{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    }
+  #foto{
+width: 500px;
+height: 500px;}
+
+
+      .fila{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        
+      }
+      
+      
+      .columnafoto {
+        flex: 70%;
+        max-width: 70%;
+        padding: 0 4px;
+        margin-top: 12px;
+        vertical-align: bottom;
+      }
+      .columnatexto {
+        flex: 30%;
+        max-width: 30%;
+        padding: 20px 4px;
+        margin-top: 12px;
+        vertical-align: bottom;
+      }
+      
+           @media screen and (max-width: 800px) {
+          .columnafoto {
+            flex: 50%;
+            max-width: 50%;
+            padding: 0 4px;
+            margin-top: 12px;
+            vertical-align: bottom;
+          }
+          .columnatexto {
+            flex: 50%;
+            max-width: 50%;
+            padding: 0 4px;
+            margin-top: 12px;
+            vertical-align: bottom;
+          }
+        
+      }
+     
+      @media screen and (max-width: 640px) {
+        .columnafoto {
+          flex: 40%;
+          max-width: 40%;
+          padding: 10px 4px;
+          margin-top: 12px;
+          vertical-align: bottom;
+        }
+        .columnatexto {
+          flex: 60%;
+          max-width: 60%;
+          padding: 0 4px;
+          margin-top: 12px;
+          vertical-align: bottom;
+          font-size: smaller;
+        }
+      }
+      
