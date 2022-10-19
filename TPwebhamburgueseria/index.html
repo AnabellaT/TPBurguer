@@ -11,11 +11,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:ital,wght@1,200&family=DynaPuff&family=Michroma&display=swap"
         rel="stylesheet">
-        
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+
+    <link rel="stylesheet" href="styles.css">
     <title>TpHamburgueseria</title>
 </head>
 <header>
@@ -24,7 +23,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="menu.html">Muy Menú</a></li>
-            <li><a href="#Locales">Muy Locales</a></li>
+            <li><a href="locales.html">Muy Locales</a></li>
             <li><a href="#Reserva">Muy Reservas</a></li>
         </ul>
     </nav>
@@ -52,26 +51,47 @@
             </div>
         </section>
     </main>
-    <h2>Lo nuevo en Muy Burguer</h2>
-    <p>
-        El mejor Happy Hour del mundo mundial...
-    </p>
-    <p>Muy Burguer, siempre tu plan A para el after office. Te esperamos de lunes a viernes - de 19 a 20 hs. -
-        con un Happy Hour que te
-        va encantar!
-    </p>
-    <p class="destacado">
-        2x1 en Cerveza Artesanal
-    </p>
-    <img id="foto" src="images/cerveza-artesanal.jpg">
+    <section>
+        <h2>Lo nuevo en Muy Burguer</h2>
+        <p>
+            El mejor Happy Hour del mundo mundial...
+        </p>
+        <p>Muy Burguer, siempre tu plan A para el after office. Te esperamos de lunes a viernes - de 19 a 20 hs. -
+            con un Happy Hour que te
+            va encantar!
+        </p>
+        <p class="destacado">
+            2x1 en Cerveza Artesanal
+        </p>
+        <img id="foto" src="images/cerveza-artesanal.jpg">
+    </section>
+    <section>
+        <h2>Semana del animé <br> en Muy Burguer</h2>
+        <p>
+            Si sos fan de Pokemon, probá suerte con estas fascinantes criaturas y llevate un super descuento!! 
+        </p>
+        <p>Muy Burguer te ofrece un 50% off en la compra de tu Hamburguesa favorita, si tu Pokemon de la suerte coincide <br> con el Pokemon Estrella que aparece en nuestra web al momento de tu compra.
+        </p>
+        
+        <article id="CajaPokemon">
+            <p id="imagenPokemon"></p>
+            <p id="nombrePokemon"></p>
+            <button onclick="resultado()">PROBÁ SUERTE CON LOS POKEMON</button>
+            
+        </article>
+        <article id="CajaPokemonEstrella">
+            <p id="imagenPokemon2"></p>
+            <p id="nombrePokemon2"></p>
+        </article>
+        </section>
     <script src="./js/main.js"></script>
 </body>
 <footer>
-    <img src="./images/wp.png" alt="wp"width="50px" height="50px">
-    <img src="./images/facebook.png" alt="fb"width="50px" height="50px">
-    <img src="./images/instag.png" alt="instg"width="50px" height="50px">
+    <img src="./images/wp.png" alt="wp" width="50px" height="50px">
+    <img src="./images/facebook.png" alt="fb" width="50px" height="50px">
+    <img src="./images/instag.png" alt="instg" width="50px" height="50px">
     <p>Copyright @2022</p>
-    
+
 </footer>
 
 </html>
