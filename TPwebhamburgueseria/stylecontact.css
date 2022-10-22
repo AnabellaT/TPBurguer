@@ -21,7 +21,7 @@ body {
     margin: 80px auto;
     border-radius: 10px;  
     padding: 30px 30px;
-    background-color: #ef5e42;
+    background-color: rgb(200, 52, 3);
 }
 
 form {
@@ -30,19 +30,19 @@ form {
 }
 
 form .datos {
-    background-color: #ef5e42;
+    background-color: rgb(200, 52, 3);
 }
 
 .obligatorio {
-    background-color: #ef5e42;
+    background-color: rgb(200, 52, 3);
 }
 
 .aviso {
-    background-color: #ef5e42;
+    background-color: rgb(200, 52, 3);
 }
 
 input{
-    background-color: #fbfbfb; 
+    background-color: rgb(251, 231, 206);; 
     width: 408px; 
     height: 40px; 
     border-radius: 5px;  
@@ -55,7 +55,7 @@ input{
 }
 
 textarea{
-    background-color: #fbfbfb; 
+    background-color: rgb(251, 231, 206);; 
     width: 405px; 
     height: 150px; 
     border-radius: 5px;  
@@ -69,31 +69,27 @@ textarea{
 }
 
 label{
+    background-color: #fbfbfb;
     display: block; 
     float: center;
-    background-color: #ef5e42;
+    background-color:  rgb(200, 52, 3);
 }
 
-button{
+#botonEnviar{
     height: 45px; 
     padding-left: 5px;
     padding-right: 5px;   
     margin-bottom: 20px; 
     margin-top: 10px;   
     text-transform: uppercase;
-    background-color: #ef5e42; 
-    border-color: black; 
+    color: rgb(251, 231, 206); 
+    background-color: black; 
     border-style: solid; 
     border-radius: 10px;  
-    width: 420px;   
+    width: 250px;   
     cursor: pointer;
 }
 
-button p{
-    color: black;
-    background-color: #ef5e42;
-    margin-bottom: auto;
-}
   
 .aviso{
     font-size: 13px;  
@@ -104,29 +100,32 @@ h1{
     font-size: 35px; 
     color: black;
     text-align: center;
-    background-color: #ef5e42;
+    background-color:  rgb(200, 52, 3);
 } 
   
 h3{
     font-size: 20px; 
     padding-bottom: 0px;
     color: black;
-    background-color: #ef5e42;
+    background-color:  rgb(200, 52, 3);
 }
   
   
 p{
+    background-color: rgb(251, 231, 206);
     font-size: 14px; 
     color: #0e0e0e; 
 }
 
 .formulario input:focus{
+    background-color: rgb(251, 231, 206);
     outline:0;
     border: 1px solid rgb(251, 231, 206);
 }
    
    
 .formulario textarea:focus{
+    background-color: rgb(251, 231, 206);
     outline:0;
     border: 3px solid rgb(251, 231, 206);
 }

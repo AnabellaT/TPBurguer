@@ -35,16 +35,16 @@
     </header>
     <div class="formulario" id="section2">
         <h1>Formulario de contacto</h1>
-        <h3>Escríbenos y en breve los pondremos en contacto</h3>
+        <h3>Escribinos y en breve nos pondremos en contacto</h3>
         <form action="action-form" method="post">
             <div class="datos">
                 <div class="datos">
-                    <label for="nombre" class="colocar_nombre">Nombre <span class="obligatorio">*</span></label>
-                    <input type="text" name="nombre" id="usuario" placeholder="Escribe tu nombre">
+                    <label for="nombre" >Nombre <span class="obligatorio">*</span></label>
+                    <input type="text" name="nombre" id="usuario" placeholder="Escribe tu nombre" required="required">
                 </div>
                 <div class="datos">
-                    <label for="apellido" class="colocar_apellido">Apellido <span class="obligatorio">*</span></label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+                    <label for="apellido">Apellido <span class="obligatorio">*</span></label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido" required="required">
                 </div>
                 <div class="datos">
                     <div class="datos">
@@ -54,16 +54,16 @@
                 </div>
                 <div class="datos">
                     <label class="Email">E-mail <span class="obligatorio">*</span></label>
-                    <input type="email" name="email" id="email" placeholder="Escriba su email">
+                    <input type="email" name="email" id="email" placeholder="Escriba su email" required="required">
                 </div>
                 <div class="datos">
-                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <label for="mensaje" required="required">Mensaje
                         <span class="obligatorio">*</span>
                     </label>
-                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="required"
                         placeholder="Deja aquí tu comentario..."></textarea>
                 </div>
-                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                <input id="botonEnviar" type="button" value="ENVIAR" onclick="enviar()">
                 <div class="aviso">
                     <span class="obligatorio"> * </span>los campos son obligatorios.
                 </div>
