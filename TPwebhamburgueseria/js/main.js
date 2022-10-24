@@ -48,4 +48,5 @@ function resultado() {
   ApiPokemon()
   pokemonPromo()
 }
-
+      
+      

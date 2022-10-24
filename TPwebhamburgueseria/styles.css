@@ -20,13 +20,12 @@ font-size: 3em;
     position: relative;
     animation: promo 10s linear 2s infinite alternate;
   }
-  
   @keyframes promo {
     0%   {left:0px; top:0px;}
     50%  {left:0px; top:520px;}
     100% {left:0px; top:0px;}
   }
-
+ 
 .logo{
   position: fixed;
   text-align: end;
