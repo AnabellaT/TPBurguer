@@ -1,0 +1,162 @@
+*{
+    font-family: 'Kanit', sans-serif;;
+    text-align: center;
+    /* background-color: rgb(251, 231, 206); */
+    box-sizing:border-box;
+}
+
+h1, h2{font-family: 'Michroma', sans-serif;
+color: rgb(200, 52, 3);    
+text-align: center;
+font-size: 3em;
+}
+
+body {
+    background-color:  rgb(251, 231, 206);
+}
+
+.formulario {
+    width: 600px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding: 30px 30px;
+    background-color: rgb(200, 52, 3);
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+form .datos {
+    background-color: rgb(200, 52, 3);
+}
+
+.obligatorio {
+    background-color: rgb(200, 52, 3);
+}
+
+.aviso {
+    background-color: rgb(200, 52, 3);
+}
+
+input{
+    background-color: rgb(251, 231, 206);; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: black; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    background-color: rgb(251, 231, 206);; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: black; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px;
+}
+
+label{
+    background-color: #fbfbfb;
+    display: block; 
+    float: center;
+    background-color:  rgb(200, 52, 3);
+}
+
+#botonEnviar{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    color: rgb(251, 231, 206); 
+    background-color: black; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 250px;   
+    cursor: pointer;
+}
+
+  
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}
+  
+h1{
+    font-size: 35px; 
+    color: black;
+    text-align: center;
+    background-color:  rgb(200, 52, 3);
+} 
+  
+h3{
+    font-size: 20px; 
+    padding-bottom: 0px;
+    color: black;
+    background-color:  rgb(200, 52, 3);
+}
+  
+  
+p{
+    background-color: rgb(251, 231, 206);
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+
+.formulario input:focus{
+    background-color: rgb(251, 231, 206);
+    outline:0;
+    border: 1px solid rgb(251, 231, 206);
+}
+   
+   
+.formulario textarea:focus{
+    background-color: rgb(251, 231, 206);
+    outline:0;
+    border: 3px solid rgb(251, 231, 206);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: rgb(200, 52, 3);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(200, 52, 3);
+    color: rgb(251, 231, 206);
+}
+
+footer{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
